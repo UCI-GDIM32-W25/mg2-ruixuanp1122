@@ -5,8 +5,8 @@ public class Spawner : MonoBehaviour
 {
     [Header("Spawn Settings")]
     [SerializeField] private GameObject _coinPrefab;
-    [SerializeField] private float _minSpawnDelay = 0.8f;
-    [SerializeField] private float _maxSpawnDelay = 2.0f;
+    [SerializeField] private float _minSpawnDelay = 0.2f;
+    [SerializeField] private float _maxSpawnDelay = 1.8f;
 
     [Header("Spawn Position")]
     [SerializeField] private float _spawnX = 12f;
