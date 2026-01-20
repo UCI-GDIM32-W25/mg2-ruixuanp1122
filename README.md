@@ -2,6 +2,7 @@
 # HW2
 ## Devlog
 Ruixuan Pan, she/her  
+
 In the MG2 breakdown activity, I planned to split the game into several main systems: player movement and jumping, coin spawning, scoring, and UI. This plan helped me stay organized while writing the code and setting up the Unity scene.  
 
 For player movement, I used a Player script to handle jumping. In the Update() method, the player jumps when the Space key is pressed. To prevent double jumping, I added a ground check using a GroundCheck Transform and Physics2D.OverlapCircle(), so the player can only jump when touching the ground. The Player GameObject uses a Rigidbody2D and a CapsuleCollider2D to handle physics and collisions smoothly.  
